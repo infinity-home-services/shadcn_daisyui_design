@@ -51,6 +51,6 @@ The reference files are **generated**, not authored here. The canonical source
 is `usage-rules/*.md` in the
 [shadcn_daisyui](https://github.com/N00nDay/shadcn_daisyui) repo, which also
 feeds the docs site, the Phoenix `usage_rules` sync, and the Swift package's
-bundled guidelines. After editing the canonical files, run
-`scripts/sync_design_consumers.sh` in that repo to propagate the change here and
-to the Swift bundle - one edit, everywhere. Do not edit `references/` by hand.
+bundled guidelines. When those files change, the "Sync design guidelines" GitHub
+Action in that repo regenerates and pushes the copies here and to the Swift
+bundle automatically, so they cannot drift. Do not edit `references/` by hand.
