@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
+  "name": "shadcn-daisyui",
+  "description": "The shadcn_daisyui design system, packaged for Claude as a guardrail skill.",
+  "owner": { "name": "Craig Howell" },
+  "plugins": [
+    {
+      "name": "shadcn-daisyui-design-system",
+      "source": ".",
+      "description": "Design-system guardrail skill for UI/UX work (web + native iOS/iPadOS).",
+      "category": "development-tools",
+      "tags": ["design-system", "ui", "ux"],
+      "license": "MIT"
+    }
+  ]
+}

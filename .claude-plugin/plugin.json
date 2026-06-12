@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "shadcn-daisyui-design-system",
+  "displayName": "shadcn_daisyui Design System",
+  "version": "0.1.0",
+  "description": "Auto-loads when building, designing, or reviewing UI/UX (web or native iOS/iPadOS) to keep work within the shadcn_daisyui design system: spacing, layout, navigation, typography, color, shape, motion, interaction, and accessibility.",
+  "author": { "name": "Craig Howell" },
+  "homepage": "https://n00nday.github.io/shadcn_daisyui/",
+  "repository": "https://github.com/N00nDay/shadcn_daisyui_design",
+  "license": "MIT",
+  "keywords": ["design-system", "ui", "ux", "guardrail", "shadcn", "daisyui", "ios", "swiftui"]
+}
