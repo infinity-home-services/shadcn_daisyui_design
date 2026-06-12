@@ -1,8 +1,8 @@
-# shadcn_daisyui Design System — Claude plugin
+# shadcn_daisyui Design System - Claude plugin
 
 A Claude [skill](https://code.claude.com/docs/en/skills) that keeps AI-written
 UI inside the [shadcn_daisyui](https://github.com/N00nDay/shadcn_daisyui) design
-system — spacing, layout, navigation, typography, color, shape, motion,
+system - spacing, layout, navigation, typography, color, shape, motion,
 interaction, and accessibility, for **web (mobile-first responsive)** and
 **native iOS/iPadOS (SwiftUI)**.
 
@@ -18,7 +18,7 @@ under Foundations and Styles.
 /plugin install shadcn-daisyui-design-system@shadcn-daisyui
 ```
 
-That's it — one install in any project, on any Claude surface (Claude Code,
+That's it - one install in any project, on any Claude surface (Claude Code,
 claude.ai, the Agent SDK). All reference files are bundled; nothing else to
 download. Update later with `/plugin marketplace update shadcn-daisyui`.
 
@@ -53,4 +53,4 @@ is `usage-rules/*.md` in the
 feeds the docs site, the Phoenix `usage_rules` sync, and the Swift package's
 bundled guidelines. After editing the canonical files, run
 `scripts/sync_design_consumers.sh` in that repo to propagate the change here and
-to the Swift bundle — one edit, everywhere. Do not edit `references/` by hand.
+to the Swift bundle - one edit, everywhere. Do not edit `references/` by hand.
