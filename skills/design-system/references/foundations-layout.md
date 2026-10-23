@@ -25,8 +25,8 @@ Design mobile-first: base styles target the smallest screen; enhance upward.
   track back, and a single full-width input invites overlong values and hides the
   field's expected size. The cap is about the *measure*, not the container.
 - **Dense / data-entry forms are the exception.** A form that is mostly short,
-  related fields (a service ticket, work order, customer record - common in IHS
-  field apps) reads *faster* as a labeled grid than as one tall single-column
+  related fields (a service ticket, work order, customer record - common in
+  field-service apps) reads *faster* as a labeled grid than as one tall single-column
   stack. On medium/expanded, widen the container to `max-w-2xl`-`max-w-4xl` and
   lay fields out `grid grid-cols-1 sm:grid-cols-2 gap-4`; keep genuinely long or
   free-text fields (address, notes) spanning the full width (`sm:col-span-2`).
